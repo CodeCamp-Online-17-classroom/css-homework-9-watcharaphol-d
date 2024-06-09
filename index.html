@@ -1,1 +1,273 @@
 <!-- write code here -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ============= import Google Font ============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ============ import bootstrap icon ============ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- =============== link style =============== -->
+    <link rel="stylesheet" href="./Web-Structure/index-styles.css">
+    <link rel="shortcut icon" href="./PIC/Uber_App_Icon.svg.png" type="image/x-icon">
+    <title>Uber #CC18</title>
+</head>
+
+<body>
+
+    <head>
+        <nav class="navbar">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="#sec1">uber</a></li>
+                    </ul>
+
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="#sec1">Ride</a></li>
+                            <li><a href="#sec2">Drive</a></li>
+                            <li><a href="#sec3">Business</a></li>
+                            <li><a href="#sec4">Uber Eats</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="dropbtn" id="myBtn">About <i class="bi bi-chevron-down"
+                                            id="drop-symbol"></i></a>
+                                    <div class="dropdown-content" id="myDropdown">
+                                        <a href="#">About us</a>
+                                        <a href="#">Our offeerings</a>
+                                        <a href="#">How Uber works</a>
+                                        <a href="#">Impact</a>
+                                        <a href="#">Diversity, equity, and inclusion</a>
+                                        <a href="#">Sustainability</a>
+                                        <a href="#">Explore</a>
+                                        <a href="#">Newsroom</a>
+                                        <a href="#">Investor relations</a>
+                                        <a href="#">Blog</a>
+                                        <a href="#">Careers</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div>
+                            <hr>
+                            <ul>
+                                <li><a href="#sec6">Help</a></li>
+                                <li><a href="#sec5">Log in</a></li>
+                                <li><a href="#sec1">Sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#sec6">Help</a></li>
+                    <li><a href="#sec5">Log in</a></li>
+                    <li><a href="#sec1">Sign up</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <main>
+        <section class="sec1" id="sec1">
+            <div class="sec1-cont">
+                <div>
+                    <div>
+                        <div>
+                            <h1>Go anywhere with <span>u</span>ber</h1>
+                            <p>Request a ride, hop in, and go.</p>
+                        </div>
+                        <form action="#">
+                            <div>
+                                <div>
+                                    <i class="bi bi-circle-fill"></i>
+                                    <input type="text" id="circle-crnt" name="crnt-lo" placeholder="Enter location"
+                                        required>
+                                </div>
+                                <a href="#"><i class="bi bi-send-fill"></i></a>
+                            </div>
+                            <div>
+                                <div>
+                                    <i class="bi bi-square-fill"></i>
+                                    <input type="text" name="dist-lo" placeholder="Enter destination" required>
+                                </div>
+                            </div>
+                            <input type="submit" value="See Prices">
+                        </form>
+                    </div>
+                </div>
+                <img src="./PIC/pic-1.webp" alt="section-1-pic" class="sec1-pic">
+            </div>
+        </section>
+        <section class="sec2" id="sec2">
+            <div class="sec2-cont">
+                <img src="./PIC/pic-2.webp" alt="section-2-pic" class="sec2-pic">
+                <div>
+                    <h1>Drive when you want, make what you need</h1>
+                    <p>Make money on your schedule with deliveries or rides—or both. You can use your own car or choose
+                        a rental through Uber.</p>
+                    <div>
+                        <a href="#sec1">Get started</a>
+                        <a href="#sec1">Already have an account? Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec3" id="sec3">
+            <div class="sec3-cont">
+                <div>
+                    <h1>The Uber you know, reimagined for business</h1>
+                    <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for
+                        companies of any size.</p>
+                    <div>
+                        <a href="#sec1">Get started</a>
+                        <a href="#sec1">Check out our solutions</a>
+                    </div>
+                </div>
+                <img src="./PIC/pic-3.webp" alt="section-3-pic" class="sec3-pic">
+            </div>
+        </section>
+        <section class="sec4" id="sec4">
+            <div class="sec4-cont">
+                <img src="./PIC/pic-4.webp" alt="section-4-pic" class="sec4-pic">
+                <div>
+                    <h1>Save on Uber and Uber Eats with Uber One membership</h1>
+                    <p>Become an Uber One member for savings and exclusive perks on Uber and Uber Eats.</p>
+                    <p>Sign up for just $9.99/month.</p>
+                    <div>
+                        <a href="#sec1">Sign up to save</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec5" id="sec5">
+            <div class="sec5-cont">
+                <h1>It’s easier in the apps</h1>
+                <div>
+                    <a href="#sec1" id="uberApp">
+                        <img src="./PIC/uber-app.webp" alt="qr-uber-app" id="uberApp-pic">
+                        <div>
+                            <h2>Download the Uber app</h2>
+                            <p>Scan to download</p>
+                        </div>
+                        <i class="bi bi-arrow-right" id="uberAppArrow"></i>
+                    </a>
+                    <a href="#sec1" id="uberDriveApp">
+                        <img src="./PIC/uber-driver.webp" alt="qr-uber-driver-app" id="uberDriveApp-pic">
+                        <div>
+                            <h2>Download the Driver app</h2>
+                            <p>Scan to download</p>
+                        </div>
+                        <i class="bi bi-arrow-right" id="uberDriveAppArrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="sec6" id="sec6">
+            <div class="sec6-cont">
+                <div>
+                    <h2>uber</h2>
+                    <a href="#sec1">Visit Help Center</a>
+                </div>
+                <div>
+                    <div>
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#sec1">About us</a></li>
+                            <li><a href="#sec1">Our offerings</a></li>
+                            <li><a href="#sec1">Newsroom</a></li>
+                            <li><a href="#sec1">Investors</a></li>
+                            <li><a href="#sec1">Blog</a></li>
+                            <li><a href="#sec1">Careers</a></li>
+                            <li><a href="#sec1">AI</a></li>
+                            <li><a href="#sec1">Gift cards</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#sec1">Ride</a></li>
+                            <li><a href="#sec2">Drive</a></li>
+                            <li><a href="#sec1">Deliver</a></li>
+                            <li><a href="#sec4">Eat</a></li>
+                            <li><a href="#sec3">Uber for Business</a></li>
+                            <li><a href="#sec3">Uber Freight</a></li>
+                            <li><a href="#sec3">Uber Health</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Global citizenship</h3>
+                        <ul>
+                            <li><a href="#sec1">Safety</a></li>
+                            <li><a href="#sec1">Diversity and Inclusion</a></li>
+                            <li><a href="#sec1">Sustainability</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Travel</h3>
+                        <ul>
+                            <li><a href="#sec1">Reserve</a></li>
+                            <li><a href="#sec1">Airports</a></li>
+                            <li><a href="#sec1">Cities</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="#sec1"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#sec1"><i class="bi bi-twitter-x"></i></a></li>
+                            <li><a href="#sec1"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="#sec1"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#sec1"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#sec1"><i class="bi bi-globe-americas"></i> English (International)</a></li>
+                            <li><a href="#sec1"><i class="bi bi-geo-alt-fill"></i> San Francisco Bay Area</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a href="#sec1"><img src="./PIC/app-store-apple.svg" alt="uberAppStore"></a>
+                    <a href="#sec1"><img src="./PIC/app-store-google.svg" alt="uberGooglePlay"></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="scrollToTopBtn" id="scrollToTopBtn">
+            <a href="#sec1"><span id="ToTopWord">Back to top </span>
+                <i class="bi bi-arrow-up-short"></i></a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-cont">
+            <p>© 2024 CodeCamp#18 Watcharaphol Dangpiem</p>
+            <ul>
+                <li><a href="#sec1">Privacy</a></li>
+                <li><a href="#sec1">Accessibility</a></li>
+                <li><a href="#sec1">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- =============== link script =============== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./Web-Structure/index-script.js"></script>
+</body>
+
+</html>
